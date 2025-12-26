@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class UserService {
-  private apiUrl = 'http://localhost:3000/api/users';
+  private apiUrl = 'https://github.com/Sara-Tarek-Ahmed/User-Profile';
 
   constructor(private http: HttpClient) {}
 
